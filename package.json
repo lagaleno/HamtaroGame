@@ -1,0 +1,34 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial jsladies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "httpserver --port 8000",
+    "deploy": "surge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsLadiesBR/tutorial-hamtaro.git"
+  },
+  "keywords": [
+    "jsladies",
+    "tutorial",
+    "hantaro",
+    "javascript"
+  ],
+  "author": "Raysa Dutra e Ju Dantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JsLadiesBR/tutorial-hamtaro/issues"
+  },
+  "homepage": "https://github.com/JsLadiesBR/tutorial-hamtaro#readme",
+  "dependencies": {
+    "phaser": "^3.8.0"
+  },
+  "devDependencies": {
+    "httpserver": "^0.3.0",
+    "surge": "^0.20.1"
+  }
+}
